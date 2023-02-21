@@ -1,4 +1,4 @@
-(() => {
+(()=> {
 
     type Hero = {
         name: string;
@@ -7,18 +7,18 @@
         getName?: () => string;
     }
 
-    let myCustomVariable: string | number | Hero = 'Johan'
-    console.log (typeof myCustomVariable)
-
+    let myCustomVariable: (string | number | Hero) = 'Fernando';
+    console.log(typeof myCustomVariable)
+    
     myCustomVariable = 20
     console.log(typeof myCustomVariable)
-
-    myCustomVariable={
-        name:'bruce',
-        age:43,
-        powers:[1]
+    
+    myCustomVariable = {
+        name: 'Bruce',
+        age: 43,
+        powers: [1]
     }
-    console.log (typeof myCustomVariable)
+    console.log(typeof myCustomVariable)
+    console.log(myCustomVariable)
 
-
-})()   
+})()

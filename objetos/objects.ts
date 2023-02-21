@@ -1,17 +1,18 @@
-(() => {
-    let flash: { name: string, age?: number, powers: string[], getName?: () => string } = {
+(()=> {
+
+    let flash: { name: string, age?: number, powers: string[], getName?: () => string }  = {
         name: 'Barry Allen',
         age: 24,
-        powers: ['super velocidad', 'viajar en el tiempo']
-    }
+        powers: ['Súper velocidad','Viajar en el tiempo']
+    } 
 
-    let superman: { name: string, age?: number, powers: string[], getName?: () => string } = {
-        name: 'clark kent',
+    let superman: { name: string, age?: number, powers: string[], getName?: () => string }  = {
+        name: 'Clark Kent',
         age: 60,
-        powers: ['super velocidad'],    
+        powers: ['Súper velocidad']
     }
 
+    console.log(flash);
 
-})()   
 
-//get trae parametros
+})()
